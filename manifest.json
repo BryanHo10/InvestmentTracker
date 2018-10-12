@@ -5,7 +5,7 @@
 	"description": "This displays real-time stock prices and personal impact",
 	"browser_action": {
 		"default_icon":"Stock.png",
-		"default_popup":"popup.html",
+		"default_popup":"menu/popup.html",
 		"default_title": "First popup."
 	},
 	"content_scripts": [

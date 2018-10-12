@@ -1,7 +1,7 @@
 console.log("background running");
 
 // Create a request variable and assign a new XMLHttpRequest object to it.
-var request = new XMLHttpRequest();
+// var request = new XMLHttpRequest();
 
 
 var url_base='https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=';
@@ -14,7 +14,7 @@ var api_key='2SAZELEGOSROC4GJ';
 var alpha_vantage=url_base+symbol+interval+time+api_url+api_key;
 
 // Open a new connection, using the GET request on the URL endpoint
-request.open('GET', alpha_vantage, true);
+// request.open('GET', alpha_vantage, true);
 
 
 
