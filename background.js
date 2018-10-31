@@ -6,7 +6,7 @@ var request = new XMLHttpRequest();
 var jsonData;
 
 var url_base='https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=';
-var symbol='MSFT';
+var symbol='VOO';
 var interval='&interval=';
 var time='5min';
 var api_url='&apikey=';
